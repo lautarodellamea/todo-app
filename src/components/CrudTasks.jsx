@@ -20,7 +20,7 @@ export const CrudTasks = () => {
             <Badge content={pendingTodosCount} color="warning">
               <Avatar
                 radius="md"
-                src="/images/note-icon.svg"
+                src="./images/note-icon.svg"
               />
             </Badge>
           }
@@ -40,7 +40,7 @@ export const CrudTasks = () => {
             <Badge content={todosCount - pendingTodosCount} color="success">
               <Avatar
                 radius="md"
-                src="/images/note-icon.svg"
+                src="./images/note-icon.svg"
               />
             </Badge>
           }
